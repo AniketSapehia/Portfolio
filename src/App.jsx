@@ -24,7 +24,7 @@ function App() {
       </main>
 
       <footer className="py-8 text-center text-slate-400 border-t border-white/5">
-        <p>© {new Date().getFullYear()} Chirag. Built with React & Tailwind CSS.</p>
+        <p>© {new Date().getFullYear()} ANIKET SAPEHIA. Built with React & Tailwind CSS.</p>
       </footer>
     </div>
   );

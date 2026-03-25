@@ -3,19 +3,19 @@ import React from 'react';
 const Projects = () => {
   const projects = [
     {
-      title: 'Resell - AI-Powered Second-Hand Marketplace',
-      date: "Nov '25 - Dec '25",
-      description: 'A full-stack MERN web application for secure buying and selling of second-hand products. Features JWT-based authentication, a seller dashboard with real-time tracking, in-app messaging for buyer-seller communication, and an integrated AI-powered product description generator.',
-      tech: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT', 'AI APIs'],
-      github: 'https://github.com/Chirag0005',
+      title: 'VisitHimachal - A Travel Companion App for the state of Himachal Pradesh',
+      date: "May '25 - July '25",
+      description: 'A frontend web application for exploring and planning trips in Himachal Pradesh. It features a responsive design, interactive maps, and dynamic content showcasing popular tourist destinations, local culture, and travel tips. It includes features like 1. Responsiveness. 2. Functional Navigation bar. 3. Multiple pages (Home, Favourites, About) 4. Like and Learn more button on each card. 5. Favourites page including all the liked cards. 6. Functional Footer.',
+      tech: ['React', 'HTML5', 'Tailwind CSS', 'JavaScript'],
+      github: 'https://github.com/AniketSapehia/Project-VisitHimachal',
       external: '#'
     },
     {
-      title: 'VolunteerHub - Volunteer Management System',
-      date: "Mar '25 - Mar '25",
-      description: 'A robust PHP-based web application designed to manage volunteer registration, event creation, and participation tracking. Includes secure authentication, an admin dashboard with CRUD operations, role-based access control, and automated certificate generation upon event completion.',
-      tech: ['PHP', 'MySQL', 'JavaScript', 'HTML/CSS'],
-      github: 'https://github.com/Chirag0005',
+      title: 'Virtual Assistant - An AI-powered chatbot for personalized assistance',
+      date: "April '25 - May '25",
+      description: 'A virtual assistant web application that uses natural language processing to provide personalized assistance to users. It can answer questions, provide recommendations, and perform tasks based on user input. The assistant is designed to learn from user interactions and improve its responses over time.',
+      tech: ['Python', 'Flask', 'Naive Bayes','NLTK','Pandas','Scikit-learn','TF-IDF', 'JavaScript', 'HTML/CSS'],
+      github: 'https://github.com/AniketSapehia/Project-Chatbot',
       external: '#'
     }
   ];
