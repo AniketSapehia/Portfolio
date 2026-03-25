@@ -1,4 +1,5 @@
 import React from 'react';
+import profileImg from '../assets/formal_aniket_image.jpg';
 
 const Hero = () => {
   return (
@@ -19,14 +20,23 @@ const Hero = () => {
             Check out my work!
           </a>
         </div>
+
         <div className="md:w-1/2 mt-12 md:mt-0 relative flex justify-center z-10">
-          <div className="relative w-64 h-64 md:w-80 md:h-80">
+          {/* Main Container with responsive sizing */}
+          <div className="relative w-64 h-64 md:w-80 md:h-80 group">
+            
+            {/* Background Decorative Animations */}
             <div className="absolute inset-0 bg-cyan-400 rounded-full blur-3xl opacity-20 animate-pulse"></div>
             <div className="absolute inset-4 rounded-full border-2 border-cyan-400/50 border-dashed animate-[spin_10s_linear_infinite]"></div>
             <div className="absolute inset-8 rounded-full border border-blue-500/30"></div>
-            <div className="absolute inset-0 flex items-center justify-center text-4xl font-bold text-white/50 bg-slate-900/50 backdrop-blur-md rounded-full border border-white/10 shadow-2xl">
-              Web Dev
-              
+            
+            {/* Image Container */}
+            <div className="relative rounded-full w-full h-100 overflow-hidden flex items-center justify-center border-4 border-slate-700 bg-slate-800 shadow-2xl transition-transform duration-500 group-hover:scale-105">
+              <img 
+                src={profileImg} 
+                alt="Aniket Sapehia" 
+                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" 
+              />
             </div>
           </div>
         </div>
