@@ -1,5 +1,6 @@
 import React from 'react';
 import profileImg from '../assets/formal_aniket_image.jpg';
+import resumePDF from '../assets/Aniket_Sapehia_CV (1).pdf';
 
 const Hero = () => {
   return (
@@ -16,9 +17,23 @@ const Hero = () => {
           <p className="text-slate-400 max-w-xl text-lg mb-10 leading-relaxed">
             I'm a 3rd year Computer Science and Engineering student at Lovely Professional University. Currently, I'm focused on learning and implementing machine learning and solving complex problems.
           </p>
-          <a href="#projects" className="px-8 py-4 border border-cyan-400 text-cyan-400 rounded hover:bg-cyan-400/10 transition-colors duration-300 font-mono backdrop-blur-sm">
-            Check out my work!
-          </a>
+          
+          {/* Button Group */}
+          <div className="flex flex-wrap gap-4">
+            <a href="#projects" className="px-8 py-4 border border-cyan-400 text-cyan-400 rounded hover:bg-cyan-400/10 transition-colors duration-300 font-mono backdrop-blur-sm">
+              Check out my work!
+            </a>
+            
+            <a 
+              href={resumePDF} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              download="Aniket_Sapehia_Resume.pdf"
+              className="px-8 py-4 bg-cyan-400 text-slate-900 rounded hover:bg-cyan-300 transition-colors duration-300 font-mono font-bold"
+            >
+              Download Resume
+            </a>
+          </div>
         </div>
 
         <div className="md:w-1/2 mt-12 md:mt-0 relative flex justify-center z-10">
@@ -31,7 +46,7 @@ const Hero = () => {
             <div className="absolute inset-8 rounded-full border border-blue-500/30"></div>
             
             {/* Image Container */}
-            <div className="relative rounded-full w-full h-90 overflow-hidden flex items-center justify-center border-4 border-slate-700 bg-slate-800 shadow-2xl transition-transform duration-500 group-hover:scale-105">
+            <div className="relative rounded-full w-full h-100 overflow-hidden flex items-center justify-center border-4 border-slate-700 bg-slate-800 shadow-2xl transition-transform duration-500 group-hover:scale-105">
               <img 
                 src={profileImg} 
                 alt="Aniket Sapehia" 

@@ -47,6 +47,30 @@ const About = () => {
                   </div>
                 </div>
               </div>
+              {/* 12th Grade */}
+              <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+                <div className="flex items-center justify-center w-5 h-5 rounded-full border border-white bg-slate-900 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 shadow-cyan-500/50"></div>
+                <div className="w-[calc(100%-2rem)] md:w-[calc(50%-1.5rem)] pl-4 md:pl-0 md:group-odd:pr-6 md:group-even:pl-6">
+                  <div className="flex flex-col items-start text-left">
+                    <span className="text-cyan-400 text-sm font-mono mb-1">April '22 - March '23</span>
+                    <h4 className="font-bold text-slate-200">Kendriya Vidyalaya Tenga Valley (Arunachal Pradesh)</h4>
+                    <span className="text-slate-400 text-sm mb-2">12th Grade</span>
+                    <span className="inline-block px-3 py-1 bg-cyan-500/10 text-cyan-400 text-xs rounded-full w-fit">Percentage: 79</span>
+                  </div>
+                </div>
+              </div>
+              {/* LPU */}
+              <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+                <div className="flex items-center justify-center w-5 h-5 rounded-full border border-white bg-slate-900 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 shadow-cyan-500/50"></div>
+                <div className="w-[calc(100%-2rem)] md:w-[calc(50%-1.5rem)] pl-4 md:pl-0 md:group-odd:pr-6 md:group-even:pl-6">
+                  <div className="flex flex-col items-start text-left">
+                    <span className="text-cyan-400 text-sm font-mono mb-1">April '20 - March '21</span>
+                    <h4 className="font-bold text-slate-200">Kendriya Vidyalaya-3 Gandhinagar Cantt (Gujarat)</h4>
+                    <span className="text-slate-400 text-sm mb-2">Class 10</span>
+                    <span className="inline-block px-3 py-1 bg-cyan-500/10 text-cyan-400 text-xs rounded-full w-fit">Percentage: 88</span>
+                  </div>
+                </div>
+              </div>
 
             
 

@@ -2,14 +2,14 @@ import React from 'react';
 
 const Achievements = () => {
   const certificates = [
-    { name: 'Software Engineering Job Simulation', issuer: 'JPMorgan Chase & Co.', date: "Mar '26" },
-    { name: 'Web Development Intern', issuer: 'SkillCraft Technology', date: "Aug '25" },
-    { name: 'PEP Program (DSA)', issuer: 'byteXL', date: "Jul '25" },
+    { name: 'Programming in Python, C, C++, Java and DSA', issuer: ' Professional  University', date: "May '26", href: 'https://www.lpu.in/' },
+    { name: 'Full Stack Web Development with React and Node', issuer: 'Lovely Professional University', date: "May '25", href: 'https://www.lpu.in/' },
+    { name: 'Responsive Web Design using HTML5 and CSS', issuer: 'freecodecamp.org', date: "May '24", href: 'https://www.freecodecamp.org/', target: '_blank' }
   ];
 
   const achievements = [
-    { platform: 'LeetCode', details: '225+ problems solved, 3 badges earned, 45+ day streak', icon: 'M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5' },
-    { platform: 'GeeksForGeeks', details: '100+ problems solved, Top 10% at university level', icon: 'M13 10V3L4 14h7v7l9-11h-7z' }
+    { platform: 'LeetCode', details: '115+ problems solved, 3 badges earned, 45+ day streak', icon: 'M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5' },
+    { platform: 'GeeksForGeeks', details: '70+ problems solved', icon: 'M13 10V3L4 14h7v7l9-11h-7z' }
   ];
 
   return (
@@ -61,7 +61,7 @@ const Achievements = () => {
                   </div>
                   <div className="text-right">
                     <span className="text-cyan-500 font-mono text-xs block">{cert.date}</span>
-                    <a href="#" className="text-xs text-slate-500 hover:text-cyan-400 underline decoration-slate-600 underline-offset-2">View</a>
+                    <a  className="text-xs text-slate-500 hover:text-cyan-400 underline decoration-slate-600 underline-offset-2">View</a>
                   </div>
                 </div>
               ))}
